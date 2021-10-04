@@ -1,0 +1,524 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,cyrillic-ext,latin-ext,cyrillic,greek-ext,greek,vietnamese);
+@font-face {
+	font-family: "basiccontrols";
+	src: url("basiccontrols.eot?cssslidertheme=basic");
+	src: url("basiccontrols.eot#iefix?cssslidertheme=basic") format("embedded-opentype"),
+			url("basiccontrols.woff?cssslidertheme=basic") format("woff"),
+			url("basiccontrols.ttf?cssslidertheme=basic") format("truetype"),
+			url("basiccontrols.svg#basic?cssslidertheme=basic") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.csslider1 {
+	display: inline-block;
+	position: relative;
+	max-width: 700px;
+	
+	width: 100%;
+	margin-top: 10px;
+}
+.csslider1 > .cs_anchor {
+	display: none;
+}
+.csslider1 > ul {
+	position: relative;
+	z-index: 1;
+	font-size: 0;
+	line-height: 0;
+	margin: 0 auto;
+	padding: 0;
+	
+	overflow: hidden;
+	white-space: nowrap;
+}
+.csslider1 > ul > li.img img {
+	width: 100%;
+}
+.csslider1 > ul > li.img {
+	font-size: 0pt;
+
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+.csslider1 > ul > li {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	font-size: 15px;
+	font-size: initial;
+	line-height: normal;
+	white-space: normal;
+	vertical-align: top;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.csslider1 .cs_lnk{
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+	font-size: 0pt;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+.csslider1 > ul > li {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: inline-block;
+	opacity: 0;
+	z-index: 1;
+  
+  	-webkit-transition: opacity 2000ms ease, -webkit-transform 12000ms linear;
+  	-moz-transition: opacity 2000ms ease, -moz-transform 12000ms linear;
+  	-ms-transition: opacity 2000ms ease, -ms-transform 12000ms linear;
+  	-o-transition: opacity 2000ms ease, -o-transform 12000ms linear;
+  	transition: opacity 2000ms ease, transform 12000ms linear;
+  	
+}
+
+.csslider1 > ul > li.num0 {
+	opacity: 0;
+	-webkit-transform: scale(1.3) translate(-11.53846%, 11.53846%);
+	-moz-transform: scale(1.3) translate(-11.53846%, 11.53846%);
+	-ms-transform: scale(1.3) translate(-11.53846%, 11.53846%);
+	-o-transform: scale(1.3) translate(-11.53846%, 11.53846%);
+	transform: scale(1.3) translate(-11.53846%, 11.53846%);
+	
+}
+.csslider1 > ul > li.num1 {
+	opacity: 0;
+	-webkit-transform: scale(1.3) translate(11.53846%, 11.53846%);
+	-moz-transform: scale(1.3) translate(11.53846%, 11.53846%);
+	-ms-transform: scale(1.3) translate(11.53846%, 11.53846%);
+	-o-transform: scale(1.3) translate(11.53846%, 11.53846%);
+	transform: scale(1.3) translate(11.53846%, 11.53846%);
+	
+}
+.csslider1 > ul > li.num2 {
+	opacity: 0;
+	-webkit-transform: scale(1.3) translate(-11.53846%, -11.53846%);
+	-moz-transform: scale(1.3) translate(-11.53846%, -11.53846%);
+	-ms-transform: scale(1.3) translate(-11.53846%, -11.53846%);
+	-o-transform: scale(1.3) translate(-11.53846%, -11.53846%);
+	transform: scale(1.3) translate(-11.53846%, -11.53846%);
+	
+}
+.csslider1 > ul > li.num3 {
+	opacity: 0;
+	-webkit-transform: scale(1.3) translate(11.53846%, -11.53846%);
+	-moz-transform: scale(1.3) translate(11.53846%, -11.53846%);
+	-ms-transform: scale(1.3) translate(11.53846%, -11.53846%);
+	-o-transform: scale(1.3) translate(11.53846%, -11.53846%);
+	transform: scale(1.3) translate(11.53846%, -11.53846%);
+	
+}
+.csslider1 > ul > li.num4 {
+	opacity: 0;
+	-webkit-transform: scale(1.3) translate(-11.53846%, 11.53846%);
+	-moz-transform: scale(1.3) translate(-11.53846%, 11.53846%);
+	-ms-transform: scale(1.3) translate(-11.53846%, 11.53846%);
+	-o-transform: scale(1.3) translate(-11.53846%, 11.53846%);
+	transform: scale(1.3) translate(-11.53846%, 11.53846%);
+	
+}
+.csslider1 > ul > li.num5 {
+	opacity: 0;
+	-webkit-transform: scale(1.3) translate(11.53846%, 11.53846%);
+	-moz-transform: scale(1.3) translate(11.53846%, 11.53846%);
+	-ms-transform: scale(1.3) translate(11.53846%, 11.53846%);
+	-o-transform: scale(1.3) translate(11.53846%, 11.53846%);
+	transform: scale(1.3) translate(11.53846%, 11.53846%);
+	
+}
+.csslider1 > ul > li.num6 {
+	opacity: 0;
+	-webkit-transform: scale(1.3) translate(-11.53846%, -11.53846%);
+	-moz-transform: scale(1.3) translate(-11.53846%, -11.53846%);
+	-ms-transform: scale(1.3) translate(-11.53846%, -11.53846%);
+	-o-transform: scale(1.3) translate(-11.53846%, -11.53846%);
+	transform: scale(1.3) translate(-11.53846%, -11.53846%);
+	
+}
+.csslider1 > ul > li.num7 {
+	opacity: 0;
+	-webkit-transform: scale(1.3) translate(11.53846%, -11.53846%);
+	-moz-transform: scale(1.3) translate(11.53846%, -11.53846%);
+	-ms-transform: scale(1.3) translate(11.53846%, -11.53846%);
+	-o-transform: scale(1.3) translate(11.53846%, -11.53846%);
+	transform: scale(1.3) translate(11.53846%, -11.53846%);
+	
+}
+.csslider1 > ul > li.num8 {
+	opacity: 0;
+	-webkit-transform: scale(1.3) translate(-11.53846%, 11.53846%);
+	-moz-transform: scale(1.3) translate(-11.53846%, 11.53846%);
+	-ms-transform: scale(1.3) translate(-11.53846%, 11.53846%);
+	-o-transform: scale(1.3) translate(-11.53846%, 11.53846%);
+	transform: scale(1.3) translate(-11.53846%, 11.53846%);
+	
+}
+.csslider1 > ul > li.num9 {
+	opacity: 0;
+	-webkit-transform: scale(1.3) translate(11.53846%, 11.53846%);
+	-moz-transform: scale(1.3) translate(11.53846%, 11.53846%);
+	-ms-transform: scale(1.3) translate(11.53846%, 11.53846%);
+	-o-transform: scale(1.3) translate(11.53846%, 11.53846%);
+	transform: scale(1.3) translate(11.53846%, 11.53846%);
+	
+}
+.csslider1 > ul > li.num10 {
+	opacity: 0;
+	-webkit-transform: scale(1.3) translate(-11.53846%, -11.53846%);
+	-moz-transform: scale(1.3) translate(-11.53846%, -11.53846%);
+	-ms-transform: scale(1.3) translate(-11.53846%, -11.53846%);
+	-o-transform: scale(1.3) translate(-11.53846%, -11.53846%);
+	transform: scale(1.3) translate(-11.53846%, -11.53846%);
+	
+}
+.csslider1 > ul > li.num11 {
+	opacity: 0;
+	-webkit-transform: scale(1.3) translate(11.53846%, -11.53846%);
+	-moz-transform: scale(1.3) translate(11.53846%, -11.53846%);
+	-ms-transform: scale(1.3) translate(11.53846%, -11.53846%);
+	-o-transform: scale(1.3) translate(11.53846%, -11.53846%);
+	transform: scale(1.3) translate(11.53846%, -11.53846%);
+	
+}
+
+
+.csslider1 > ul > li.num0 {
+	opacity: 1;
+	z-index: 2;
+}
+.csslider1 > .slide:checked ~ ul > li.num0 {
+	opacity: 0;
+	z-index: 1;
+}
+
+
+.csslider1 > #cs_slide1_0:checked ~ ul > li.num0,.csslider1 > #cs_slide1_1:checked ~ ul > li.num1,.csslider1 > #cs_slide1_2:checked ~ ul > li.num2,.csslider1 > #cs_slide1_3:checked ~ ul > li.num3,.csslider1 > #cs_slide1_4:checked ~ ul > li.num4,.csslider1 > #cs_slide1_5:checked ~ ul > li.num5,.csslider1 > #cs_slide1_6:checked ~ ul > li.num6,.csslider1 > #cs_slide1_7:checked ~ ul > li.num7,.csslider1 > #cs_slide1_8:checked ~ ul > li.num8,.csslider1 > #cs_slide1_9:checked ~ ul > li.num9,.csslider1 > #cs_slide1_10:checked ~ ul > li.num10,.csslider1 > #cs_slide1_11:checked ~ ul > li.num11 {
+	opacity: 1;
+	-webkit-transform: scale(1) translate(0, 0);
+	-moz-transform: scale(1) translate(0, 0);
+	-ms-transform: scale(1) translate(0, 0);
+	-o-transform: scale(1) translate(0, 0);
+	transform: scale(1) translate(0, 0);
+	
+	z-index: 2;
+}
+
+
+
+
+/* calculate autoplay */
+@-webkit-keyframes kenbernsBR {
+	0%, 100% { -webkit-transform: scale(1); opacity: 0 }
+	4.166666666666667%, 8.333333333333334% { opacity: 1 }
+	12.5%, 91.66666666666667% { -webkit-transform: scale(1.3) translate(11.53846%, 11.53846%); opacity: 0; z-index: 2; }
+}
+@-moz-keyframes kenbernsBR {
+	0%, 100% { -moz-transform: scale(1); opacity: 0 }
+	4.166666666666667%, 8.333333333333334% { opacity: 1 }
+	12.5%, 91.66666666666667% { -moz-transform: scale(1.3) translate(11.53846%, 11.53846%); opacity: 0; z-index: 2; }
+}
+@-ms-keyframes kenbernsBR {
+	0%, 100% { -ms-transform: scale(1); opacity: 0 }
+	4.166666666666667%, 8.333333333333334% { opacity: 1 }
+	12.5%, 91.66666666666667% { -ms-transform: scale(1.3) translate(11.53846%, 11.53846%); opacity: 0; z-index: 2; }
+}
+@-o-keyframes kenbernsBR {
+	0%, 100% { -o-transform: scale(1); opacity: 0 }
+	4.166666666666667%, 8.333333333333334% { opacity: 1 }
+	12.5%, 91.66666666666667% { -o-transform: scale(1.3) translate(11.53846%, 11.53846%); opacity: 0; z-index: 2; }
+}
+@keyframes kenbernsBR {
+	0%, 100% { transform: scale(1); opacity: 0 }
+	4.166666666666667%, 8.333333333333334% { opacity: 1 }
+	12.5%, 91.66666666666667% { transform: scale(1.3) translate(11.53846%, 11.53846%); opacity: 0; z-index: 2; }
+}
+@-webkit-keyframes kenbernsBL {
+	0%, 100% { -webkit-transform: scale(1); opacity: 0 }
+	4.166666666666667%, 8.333333333333334% { opacity: 1 }
+	12.5%, 91.66666666666667% { -webkit-transform: scale(1.3) translate(11.53846%, -11.53846%); opacity: 0; z-index: 2; }
+}
+@-moz-keyframes kenbernsBL {
+	0%, 100% { -moz-transform: scale(1); opacity: 0 }
+	4.166666666666667%, 8.333333333333334% { opacity: 1 }
+	12.5%, 91.66666666666667% { -moz-transform: scale(1.3) translate(11.53846%, -11.53846%); opacity: 0; z-index: 2; }
+}
+@-ms-keyframes kenbernsBL {
+	0%, 100% { -ms-transform: scale(1); opacity: 0 }
+	4.166666666666667%, 8.333333333333334% { opacity: 1 }
+	12.5%, 91.66666666666667% { -ms-transform: scale(1.3) translate(11.53846%, -11.53846%); opacity: 0; z-index: 2; }
+}
+@-o-keyframes kenbernsBL {
+	0%, 100% { -o-transform: scale(1); opacity: 0 }
+	4.166666666666667%, 8.333333333333334% { opacity: 1 }
+	12.5%, 91.66666666666667% { -o-transform: scale(1.3) translate(11.53846%, -11.53846%); opacity: 0; z-index: 2; }
+}
+@keyframes kenbernsBL {
+	0%, 100% { transform: scale(1); opacity: 0 }
+	4.166666666666667%, 8.333333333333334% { opacity: 1 }
+	12.5%, 91.66666666666667% { transform: scale(1.3) translate(11.53846%, -11.53846%); opacity: 0; z-index: 2; }
+}
+@-webkit-keyframes kenbernsTL {
+	0%, 100% { -webkit-transform: scale(1); opacity: 0 }
+	4.166666666666667%, 8.333333333333334% { opacity: 1 }
+	12.5%, 91.66666666666667% { -webkit-transform: scale(1.3) translate(-11.53846%, -11.53846%); opacity: 0; z-index: 2; }
+}
+@-moz-keyframes kenbernsTL {
+	0%, 100% { -moz-transform: scale(1); opacity: 0 }
+	4.166666666666667%, 8.333333333333334% { opacity: 1 }
+	12.5%, 91.66666666666667% { -moz-transform: scale(1.3) translate(-11.53846%, -11.53846%); opacity: 0; z-index: 2; }
+}
+@-ms-keyframes kenbernsTL {
+	0%, 100% { -ms-transform: scale(1); opacity: 0 }
+	4.166666666666667%, 8.333333333333334% { opacity: 1 }
+	12.5%, 91.66666666666667% { -ms-transform: scale(1.3) translate(-11.53846%, -11.53846%); opacity: 0; z-index: 2; }
+}
+@-o-keyframes kenbernsTL {
+	0%, 100% { -o-transform: scale(1); opacity: 0 }
+	4.166666666666667%, 8.333333333333334% { opacity: 1 }
+	12.5%, 91.66666666666667% { -o-transform: scale(1.3) translate(-11.53846%, -11.53846%); opacity: 0; z-index: 2; }
+}
+@keyframes kenbernsTL {
+	0%, 100% { transform: scale(1); opacity: 0 }
+	4.166666666666667%, 8.333333333333334% { opacity: 1 }
+	12.5%, 91.66666666666667% { transform: scale(1.3) translate(-11.53846%, -11.53846%); opacity: 0; z-index: 2; }
+}
+@-webkit-keyframes kenbernsTR {
+	0%, 100% { -webkit-transform: scale(1); opacity: 0 }
+	4.166666666666667%, 8.333333333333334% { opacity: 1 }
+	12.5%, 91.66666666666667% { -webkit-transform: scale(1.3) translate(-11.53846%, 11.53846%); opacity: 0; z-index: 2; }
+}
+@-moz-keyframes kenbernsTR {
+	0%, 100% { -moz-transform: scale(1); opacity: 0 }
+	4.166666666666667%, 8.333333333333334% { opacity: 1 }
+	12.5%, 91.66666666666667% { -moz-transform: scale(1.3) translate(-11.53846%, 11.53846%); opacity: 0; z-index: 2; }
+}
+@-ms-keyframes kenbernsTR {
+	0%, 100% { -ms-transform: scale(1); opacity: 0 }
+	4.166666666666667%, 8.333333333333334% { opacity: 1 }
+	12.5%, 91.66666666666667% { -ms-transform: scale(1.3) translate(-11.53846%, 11.53846%); opacity: 0; z-index: 2; }
+}
+@-o-keyframes kenbernsTR {
+	0%, 100% { -o-transform: scale(1); opacity: 0 }
+	4.166666666666667%, 8.333333333333334% { opacity: 1 }
+	12.5%, 91.66666666666667% { -o-transform: scale(1.3) translate(-11.53846%, 11.53846%); opacity: 0; z-index: 2; }
+}
+@keyframes kenbernsTR {
+	0%, 100% { transform: scale(1); opacity: 0 }
+	4.166666666666667%, 8.333333333333334% { opacity: 1 }
+	12.5%, 91.66666666666667% { transform: scale(1.3) translate(-11.53846%, 11.53846%); opacity: 0; z-index: 2; }
+}
+
+
+
+.csslider1 > #cs_play1:checked ~ ul > li.num0,
+.csslider1 > #cs_pause1:checked ~ ul > li.num0 {
+	-webkit-animation: kenbernsTR 48000ms infinite -2000ms linear;
+	-moz-animation: kenbernsTR 48000ms infinite -2000ms linear;
+	-ms-animation: kenbernsTR 48000ms infinite -2000ms linear;
+	-o-animation: kenbernsTR 48000ms infinite -2000ms linear;
+	animation: kenbernsTR 48000ms infinite -2000ms linear;
+	
+}
+.csslider1 > #cs_play1:checked ~ ul > li.num1,
+.csslider1 > #cs_pause1:checked ~ ul > li.num1 {
+	-webkit-animation: kenbernsBR 48000ms infinite 2000ms linear;
+	-moz-animation: kenbernsBR 48000ms infinite 2000ms linear;
+	-ms-animation: kenbernsBR 48000ms infinite 2000ms linear;
+	-o-animation: kenbernsBR 48000ms infinite 2000ms linear;
+	animation: kenbernsBR 48000ms infinite 2000ms linear;
+	
+}
+.csslider1 > #cs_play1:checked ~ ul > li.num2,
+.csslider1 > #cs_pause1:checked ~ ul > li.num2 {
+	-webkit-animation: kenbernsTL 48000ms infinite 6000ms linear;
+	-moz-animation: kenbernsTL 48000ms infinite 6000ms linear;
+	-ms-animation: kenbernsTL 48000ms infinite 6000ms linear;
+	-o-animation: kenbernsTL 48000ms infinite 6000ms linear;
+	animation: kenbernsTL 48000ms infinite 6000ms linear;
+	
+}
+.csslider1 > #cs_play1:checked ~ ul > li.num3,
+.csslider1 > #cs_pause1:checked ~ ul > li.num3 {
+	-webkit-animation: kenbernsBL 48000ms infinite 10000ms linear;
+	-moz-animation: kenbernsBL 48000ms infinite 10000ms linear;
+	-ms-animation: kenbernsBL 48000ms infinite 10000ms linear;
+	-o-animation: kenbernsBL 48000ms infinite 10000ms linear;
+	animation: kenbernsBL 48000ms infinite 10000ms linear;
+	
+}
+.csslider1 > #cs_play1:checked ~ ul > li.num4,
+.csslider1 > #cs_pause1:checked ~ ul > li.num4 {
+	-webkit-animation: kenbernsTR 48000ms infinite 14000ms linear;
+	-moz-animation: kenbernsTR 48000ms infinite 14000ms linear;
+	-ms-animation: kenbernsTR 48000ms infinite 14000ms linear;
+	-o-animation: kenbernsTR 48000ms infinite 14000ms linear;
+	animation: kenbernsTR 48000ms infinite 14000ms linear;
+	
+}
+.csslider1 > #cs_play1:checked ~ ul > li.num5,
+.csslider1 > #cs_pause1:checked ~ ul > li.num5 {
+	-webkit-animation: kenbernsBR 48000ms infinite 18000ms linear;
+	-moz-animation: kenbernsBR 48000ms infinite 18000ms linear;
+	-ms-animation: kenbernsBR 48000ms infinite 18000ms linear;
+	-o-animation: kenbernsBR 48000ms infinite 18000ms linear;
+	animation: kenbernsBR 48000ms infinite 18000ms linear;
+	
+}
+.csslider1 > #cs_play1:checked ~ ul > li.num6,
+.csslider1 > #cs_pause1:checked ~ ul > li.num6 {
+	-webkit-animation: kenbernsTL 48000ms infinite 22000ms linear;
+	-moz-animation: kenbernsTL 48000ms infinite 22000ms linear;
+	-ms-animation: kenbernsTL 48000ms infinite 22000ms linear;
+	-o-animation: kenbernsTL 48000ms infinite 22000ms linear;
+	animation: kenbernsTL 48000ms infinite 22000ms linear;
+	
+}
+.csslider1 > #cs_play1:checked ~ ul > li.num7,
+.csslider1 > #cs_pause1:checked ~ ul > li.num7 {
+	-webkit-animation: kenbernsBL 48000ms infinite 26000ms linear;
+	-moz-animation: kenbernsBL 48000ms infinite 26000ms linear;
+	-ms-animation: kenbernsBL 48000ms infinite 26000ms linear;
+	-o-animation: kenbernsBL 48000ms infinite 26000ms linear;
+	animation: kenbernsBL 48000ms infinite 26000ms linear;
+	
+}
+.csslider1 > #cs_play1:checked ~ ul > li.num8,
+.csslider1 > #cs_pause1:checked ~ ul > li.num8 {
+	-webkit-animation: kenbernsTR 48000ms infinite 30000ms linear;
+	-moz-animation: kenbernsTR 48000ms infinite 30000ms linear;
+	-ms-animation: kenbernsTR 48000ms infinite 30000ms linear;
+	-o-animation: kenbernsTR 48000ms infinite 30000ms linear;
+	animation: kenbernsTR 48000ms infinite 30000ms linear;
+	
+}
+.csslider1 > #cs_play1:checked ~ ul > li.num9,
+.csslider1 > #cs_pause1:checked ~ ul > li.num9 {
+	-webkit-animation: kenbernsBR 48000ms infinite 34000ms linear;
+	-moz-animation: kenbernsBR 48000ms infinite 34000ms linear;
+	-ms-animation: kenbernsBR 48000ms infinite 34000ms linear;
+	-o-animation: kenbernsBR 48000ms infinite 34000ms linear;
+	animation: kenbernsBR 48000ms infinite 34000ms linear;
+	
+}
+.csslider1 > #cs_play1:checked ~ ul > li.num10,
+.csslider1 > #cs_pause1:checked ~ ul > li.num10 {
+	-webkit-animation: kenbernsTL 48000ms infinite 38000ms linear;
+	-moz-animation: kenbernsTL 48000ms infinite 38000ms linear;
+	-ms-animation: kenbernsTL 48000ms infinite 38000ms linear;
+	-o-animation: kenbernsTL 48000ms infinite 38000ms linear;
+	animation: kenbernsTL 48000ms infinite 38000ms linear;
+	
+}
+.csslider1 > #cs_play1:checked ~ ul > li.num11,
+.csslider1 > #cs_pause1:checked ~ ul > li.num11 {
+	-webkit-animation: kenbernsBL 48000ms infinite 42000ms linear;
+	-moz-animation: kenbernsBL 48000ms infinite 42000ms linear;
+	-ms-animation: kenbernsBL 48000ms infinite 42000ms linear;
+	-o-animation: kenbernsBL 48000ms infinite 42000ms linear;
+	animation: kenbernsBL 48000ms infinite 42000ms linear;
+	
+}
+
+
+
+
+.csslider1 > #cs_play1:checked ~ ul > li,
+.csslider1 > #cs_pause1:checked ~ ul > li {
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition: none;
+	
+}
+
+
+
+.csslider1.cs_pauseHover:hover > ul > li,
+.csslider1 > #cs_pause1:checked ~ ul > li{
+	-webkit-animation-play-state: paused !important;
+	-moz-animation-play-state: paused !important;
+	-ms-animation-play-state: paused !important;
+	-o-animation-play-state: paused !important;
+	animation-play-state: paused !important;
+}
+
+/* stop */
+
+/* /calculate autoplay */
+.csslider1 > .cs_play_pause {
+  	-webkit-transition: .4s all 0s ease;
+  	-moz-transition: .4s all 0s ease;
+  	-ms-transition: .4s all 0s ease;
+  	-o-transition: .4s all 0s ease;
+  	transition: .4s all 0s ease;
+  	
+}
+.csslider1 > .cs_arrowprev {
+  	-webkit-transition: .4s all .15s ease;
+  	-moz-transition: .4s all .15s ease;
+  	-ms-transition: .4s all .15s ease;
+  	-o-transition: .4s all .15s ease;
+  	transition: .4s all .15s ease;
+  	
+}
+.csslider1 > .cs_arrownext {
+  	-webkit-transition: .4s all .3s ease;
+  	-moz-transition: .4s all .3s ease;
+  	-ms-transition: .4s all .3s ease;
+  	-o-transition: .4s all .3s ease;
+  	transition: .4s all .3s ease;
+  	
+}
+.csslider1 > .cs_arrowprev,
+.csslider1 > .cs_arrownext,
+.csslider1 > .cs_play_pause {
+	opacity: 0;
+	-webkit-transform: translateY(-30px);
+	-moz-transform: translateY(-30px);
+	-ms-transform: translateY(-30px);
+	-o-transform: translateY(-30px);
+	transform: translateY(-30px);
+	
+}
+
+.csslider1:hover > .cs_arrowprev,
+.csslider1:hover > .cs_arrownext,
+.csslider1:hover > .cs_play_pause {
+	opacity: 1;
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+	
+}/* hide description & bullets on mobile devices */
+@media
+only screen and (max-width: 480px),
+only screen and (-webkit-max-device-pixel-ratio: 2)      and (max-width: 480px),
+only screen and (   max--moz-device-pixel-ratio: 2)      and (max-width: 480px),
+only screen and (     -o-max-device-pixel-ratio: 2/1)    and (max-width: 480px),
+only screen and (        max-device-pixel-ratio: 2)      and (max-width: 480px),
+only screen and (                max-resolution: 192dpi) and (max-width: 480px),
+only screen and (                max-resolution: 2dppx)  and (max-width: 480px) { 
+	.csslider1 > .cs_description,
+	.csslider1 > .cs_bullets {
+		display: none;
+	}
+}
